@@ -1,0 +1,1577 @@
+{
+  "settings": {
+    "name": "oneshot",
+    "currentPage": "page1.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#000000",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Arvo",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#f1b04a",
+        "#323232"
+      ]
+    },
+    "favicon": "",
+    "noImageResize": "",
+    "versionFirst": "4.1.6",
+    "uniqCompNum": 29,
+    "versionPublish": "4.1.6"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "30px",
+              "font-family": "'Arvo', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i",
+              "font-family": "'Arvo', serif"
+            },
+            ".link": {
+              "font-size": "1.1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.191rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#000000"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#000000!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#2c3e50",
+            "fontSize": "1.1",
+            "fontName": {
+              "url": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i",
+              "name": "Arvo",
+              "css": "'Arvo', serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">회원가입</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">자유게시판</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">술집찾기</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/111-113x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ONE SHOT</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-2"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "animText1": "리뷰",
+            "animText2": "가격",
+            "animText3": "위치",
+            "typeSpeed": "40",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1618x1080.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.2"
+          },
+          "title": "우리동네 술집&nbsp;<br>",
+          "text": "처음가는 지역에 처음가는 술집 <br>어떻게 선택하시겠습니까?",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">술집 찾아보기</a>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header11",
+          "_anchor": "header11-1",
+          "_styles": {
+            "H1": {
+              "font-size": "80px"
+            },
+            "P": {
+              "font-size": "21px"
+            }
+          }
+        },
+        {
+          "_styles": {},
+          "_params": {
+            "showTitles": true,
+            "showText": true,
+            "showSubtitles": true,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/extFeatures1/images/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.75
+          },
+          "title": "춘천 술집 데이터",
+          "text": "본 데이터는 자체적으로 조사한 결과이며 실제데이터와 차이가 있을 수 있습니다.",
+          "subtitle1": "소주 판매량",
+          "subtitle2": "총 메뉴개수",
+          "subtitle3": "술집",
+          "subtitle4": "원샷 제휴술집",
+          "number1": "69809",
+          "number2": "3726",
+          "number3": "341",
+          "number4": "57",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "counters2",
+          "_anchor": "counters2-l"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": true,
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "columns": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#3498db",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#f1b04a",
+            "overlayOpacity": "0.8"
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "cocktail",
+              "family": "iconsMind",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "#fff",
+              "newWindow": false
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "yagermeister",
+              "family": "icon54",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "#fff",
+              "newWindow": false
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "social-people",
+              "family": "Material-Design-Icons",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "#fff",
+              "newWindow": false
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title": "Features",
+          "title1": "Bootstrap 4",
+          "subtitle1": "<b>와인</b>",
+          "caption1": "종류별 와인, 국가별 와인, <br>당도별 와인, 빈티지별 와인, 가격별 와인",
+          "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "title2": "Responsive",
+          "subtitle2": "<b>소주</b>",
+          "caption2": "과일 소주, 참이슬<br>처음처럼, C1, 좋은데이 등",
+          "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "title3": "Web Fonts",
+          "subtitle3": "<b>맥주</b>",
+          "caption3": "발효방식의 구분에 따라 <br>에일(Ale), 라거(Lager), 람빅(Lambic) 3가지 종류",
+          "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "buttons5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features2",
+          "_anchor": "features2-r"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {}
+          },
+          "_params": {
+            "showSubtitle": true,
+            "showTitle": true,
+            "showText": false,
+            "countdown": "2017/09/01",
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/04.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "overlay": false,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.5
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "title": "제휴 점주분을 모십니다.",
+          "subtitle": "17년 8월 1일까지 원샷과 제휴하시는 업주분께는 무료 상위링크 쿠폰을 드립니다.&nbsp;",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nobis, ea amet non commodi voluptate. Aspernatur libero cumque in unde et culpa corrupti asperiores praesentium voluptatum iure dolores illo nihil saepe distinctio eaque explicabo quis ipsam sed consectetur, accusantium ex qui. Voluptas nam consectetur, dolorem sed quo qui iusto dolor!",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
+          "form": {
+            "action": "wonhojoung@naver.com",
+            "alerts": {
+              "success": "전송되었습니다."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "이름"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "이메일"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "핸드폰"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "내용"
+              }
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form5",
+          "_anchor": "form5-j"
+        },
+        {
+          "_styles": {
+            "P": {
+              "color": "#dddddd"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "right"
+            }
+          },
+          "_params": {
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#f7f7f7",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/111-113x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "scribd",
+              "family": "FontAwesome",
+              "link": "",
+              "size": 0,
+              "newWindow": false,
+              "active": true
+            }
+          },
+          "title1": "product",
+          "text11": "Popular",
+          "text12": "Trending",
+          "text13": "Catalog",
+          "text14": "Awesome",
+          "text15": "Best",
+          "title2": "company",
+          "text21": "Press",
+          "text22": "Features",
+          "text23": "Mission",
+          "text24": "Strategy",
+          "text25": "Works",
+          "title3": "Learn more",
+          "text31": "Support",
+          "text32": "Developers",
+          "text33": "Service",
+          "text34": "Starter pack",
+          "text35": "FAQ",
+          "titled1": "<p><span style=\"font-style: normal;\"><b>회원가입&nbsp; &nbsp;</b></span></p>",
+          "titled2": "<span style=\"font-style: normal;\"><b>자유게시판</b></span>",
+          "titled3": "<span style=\"font-style: normal;\"><b>술집찾기</b></span>",
+          "followtext": "follow us",
+          "text": "Copyright (c) 2017 oneshot.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer7",
+          "_anchor": "footer7-s"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "product",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "30px",
+              "font-family": "'Arvo', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i",
+              "font-family": "'Arvo', serif"
+            },
+            ".link": {
+              "font-size": "1.1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.191rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#000000"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#000000!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#2c3e50",
+            "fontSize": "1.1",
+            "fontName": {
+              "url": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i",
+              "name": "Arvo",
+              "css": "'Arvo', serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">회원가입</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">자유게시판</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">술집찾기</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/111-113x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ONE SHOT</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-8"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700"
+            },
+            ".display-6": {
+              "text-transform": "none",
+              "letter-spacing": "0px",
+              "font-weight": "400",
+              "color": "#fff"
+            },
+            ".mbr-cards-row": {
+              "margin-top": "40px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showImages": false,
+            "showTitles": true,
+            "ShowTexts": true,
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "columns": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/beer-820011-1440x1920.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#434350",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#434350",
+            "overlayOpacity": "0.5"
+          },
+          "title": "우리지역 술집 찾기",
+          "media": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/112-2445x2888.png",
+              "class": "card-img-top",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "예약 기능",
+          "caption1": "사람이 많아 헛걸음 하는 일 없이 미리 업주분들과의 연락을 통해 예약을 손쉽게 하실 수 있습니다.&nbsp;",
+          "title2": "Responsive",
+          "subtitle2": "메뉴 &nbsp;확인",
+          "caption2": "술집에 들어가서 메뉴를 확인하는 것이 아니라 들어가기전 마음에 드는 메뉴를 확인하고 술집을 선택할 수 있습니다.",
+          "title3": "Web Fonts",
+          "subtitle3": "리뷰 확인",
+          "caption3": "안주의 맛이나 술집의 분위기를 미리 리뷰를 통해 확인하여 술집 선택을 실패하는 것을 막아줍니다.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features15",
+          "_anchor": "features15-n"
+        },
+        {
+          "_styles": {
+            ".galleryItem h4:hover": {
+              "color": "@primaryColor"
+            },
+            ".mbr-gallery-filter ul li.active": {
+              "color": "@primaryColor"
+            },
+            ".mbr-gallery-filter ul li:hover": {
+              "color": "@primaryColor"
+            },
+            ".mbr-gallery-filter ul li:before": {
+              "background": "@primaryColor"
+            },
+            ".min-toggle:hover, .max-toggle:hover": {
+              "background-color": "@primaryColor"
+            },
+            ".shop-title": {
+              "font-family": "@titleFont"
+            },
+            ".categories-titles .mbr-gallery-filter ul li": {
+              "font-family": "@titleFont"
+            },
+            ".max-input": {
+              "font-family": "@titleFont"
+            },
+            ".min-input": {
+              "font-family": "@titleFont"
+            },
+            ".item-title": {
+              "font-family": "@titleFont"
+            },
+            ".card-description": {
+              "font-family": "@textFont"
+            },
+            ".shop-item-price": {
+              "font-family": "@subtitleFont"
+            },
+            ".btn": {
+              "font-size": "14px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSidebar": true,
+            "showSortButtons": true,
+            "showBestSellers": true,
+            "priceRange": true,
+            "filter": true,
+            "showStars": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgColor": "#f5f5f5",
+            "filterBgColor": false,
+            "fontHoverColor": "@primaryColor",
+            "mainTitle": "@titleFont",
+            "mainSubTitle": "@subtitleFont",
+            "mainText": "@textFont",
+            "images": [
+              {
+                "tags": "분위기 좋은",
+                "image": "@PROJECT_PATH@/assets/images/1-1200x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1-1200x1280-800x853.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/4.png",
+                "stars": "@PROJECT_PATH@/assets/images/4.png",
+                "bestSeller": true,
+                "itemTitle": "FOX",
+                "itemSubtitle": "여성 전용 술집",
+                "itemDescription": "<p>분위기가 좋은 술집<br><br></p><ul><li>인테리어 우수</li> <li>와이파이&nbsp;</li> <li>다수 테이블</li> <li>예약가능</li></ul> <br>[이벤트]<p></p><p>소주 1병 주문시 1병 더 원샷회원 인증 필수<br><br>code: <b>367DDF5p</b></p>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "평점 4점",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"page2.html\" class=\"btn btn-primary btn-primary-outline\">자세히 보기</a>",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "안주가 맛있는",
+                "bestSeller": false,
+                "itemTitle": "오븐에 빠진 닭",
+                "itemSubtitle": "안주가 맛있는 닭",
+                "itemDescription": "닭이 맛있는 집<br><br><ul><li>인테리어 우수</li> <li>와이파이&nbsp;</li> <li>다수 테이블</li> <li>예약가능</li></ul> <br>[이벤트]\n<div>소주 1병 주문시 1병 더 원샷회원 인증 필수<br><br>code: <b>34567F5p</b></div>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "평점 2점",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"page2.html\" class=\"btn btn-primary btn-primary-outline\">자세히 보기</a>",
+                "image": "@PROJECT_PATH@/assets/images/2-1200x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2-1200x1280-800x853.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/2.png",
+                "stars": "@PROJECT_PATH@/assets/images/2.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "안주가 맛있는",
+                "bestSeller": false,
+                "itemTitle": "모로미 쿠시",
+                "itemSubtitle": "안주가 맛있는 주점",
+                "itemDescription": "일본 술집<br><br><ul><li>인테리어 우수</li> <li>와이파이&nbsp;</li> <li>다수 테이블</li> <li>예약가능</li></ul> <br>[이벤트]\n<div>소주 1병 주문시 1병 더 원샷회원 인증 필수<br><br>code: <b>3476DF5p</b></div>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "평점 3점<br>",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"page2.html\" class=\"btn btn-primary btn-primary-outline\">자세히 보기</a>",
+                "image": "@PROJECT_PATH@/assets/images/3-1200x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3-1200x1280-800x853.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/3.png",
+                "stars": "@PROJECT_PATH@/assets/images/3.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "분위기 좋은",
+                "bestSeller": false,
+                "itemTitle": "너땜에 한잔",
+                "itemSubtitle": "분위기가 좋은 술집",
+                "itemDescription": "<p>감성 포차<br><br></p><ul><li>인테리어 우수</li> <li>와이파이</li> <li>다수 테이블</li> <li>예약가능</li></ul> <p></p><p><br></p><p><br></p><p>[이벤트]\n</p><div>소주 1병 주문시 1병 더 원샷회원 인증 필수<br><br>code: <b>3478DF5p</b></div><p></p>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "평점 5점",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"page2.html\" class=\"btn btn-primary btn-primary-outline\">자세히 보기</a>",
+                "image": "@PROJECT_PATH@/assets/images/4-1200x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/4-1200x1280-800x853.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/5.png",
+                "stars": "@PROJECT_PATH@/assets/images/5.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "분위기 좋은",
+                "bestSeller": true,
+                "itemTitle": "밤새우리",
+                "itemSubtitle": "분위기 좋은 화로구이 술집",
+                "itemDescription": "<p>Has no weight! Try not to lose it.<br><br></p><ul><li>인테리어 우수</li> <li>와이파이&nbsp;</li> <li>다수 테이블</li> <li>예약가능\n</li></ul> <br><p></p><p><br>[이벤트]\n</p><div>소주 1병 주문시 1병 더 원샷회원 인증 필수<br><br>code: <b>34GFDF5p</b></div><p></p>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "평점 3점",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"page2.html\" class=\"btn btn-primary btn-primary-outline btn-primary-outline\">자세히 보기</a>",
+                "image": "@PROJECT_PATH@/assets/images/5-1200x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/5-1200x1280-800x853.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/3.png",
+                "stars": "@PROJECT_PATH@/assets/images/3.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "가격이 싼",
+                "bestSeller": false,
+                "itemTitle": "차칸 술집",
+                "itemSubtitle": "가격이 착한 술집",
+                "itemDescription": "안주가격이 싼 술집<br><br><ul><li>인테리어 우수</li> <li>와이파이&nbsp;</li> <li>다수 테이블</li> <li>예약가능</li></ul> <br>[이벤트]\n<div>소주 1병 주문시 1병 더 원샷회원 인증 필수<br><br>code: <b>385DDF5p</b></div>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "평점 1점",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"page2.html\" class=\"btn btn-primary btn-primary-outline\">자세히 보기</a>",
+                "image": "@PROJECT_PATH@/assets/images/6-1200x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/6-1200x1280-800x853.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/1.png",
+                "stars": "@PROJECT_PATH@/assets/images/1.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "가격이 싼",
+                "bestSeller": false,
+                "itemTitle": "감나무집",
+                "itemSubtitle": "안주가 싼 감나무집",
+                "itemDescription": "안주가 저렴한 가성비 술집<br><br><ul><li>인테리어 우수</li> <li>와이파이&nbsp;</li> <li>다수 테이블</li> <li>예약가능</li></ul> <br>[이벤트]\n<div>소주 1병 주문시 1병 더 원샷회원 인증 필수<br></div><div><br>code: <b>340DDF5p</b></div>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "평점 3점",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"page2.html\" class=\"btn btn-primary btn-primary-outline\">자세히 보기</a>",
+                "image": "@PROJECT_PATH@/assets/images/7-1200x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/7-1200x1280-800x853.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/3.png",
+                "stars": "@PROJECT_PATH@/assets/images/3.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "분위기 좋은",
+                "bestSeller": false,
+                "itemTitle": "요리하는 술집",
+                "itemSubtitle": "분위기가 좋은 요리술집",
+                "itemDescription": "<p></p><p>분위기가 좋은 술집<br><br></p><ul><li>인테리어 우수</li> <li>와이파이&nbsp;</li> <li>다수 테이블</li> <li>예약가능</li></ul> <br><p></p><p><br>[이벤트]\n</p><div>소주 1병 주문시 1병 더 원샷회원 인증 필수</div><div><br> Product code: <b>34556F5p</b></div><p></p><p><br></p><p></p>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "평점 4점",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"page2.html\" class=\"btn btn-primary btn-primary-outline\">자세히 보기</a>",
+                "image": "@PROJECT_PATH@/assets/images/8-1200x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/8-1200x1280-800x853.jpg",
+                "starsImg": "@PROJECT_PATH@/assets/images/4.png",
+                "stars": "@PROJECT_PATH@/assets/images/4.png",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": false,
+          "title": "LIST",
+          "filter_by_pu": "<a data-app-btn=\"true\" class=\"btn btn-primary disableSortButton\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">평점 낮은순</a>",
+          "filter_by_pd": "<a data-app-btn=\"true\" class=\"btn btn-primary disableSortButton\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">평점 높은순</a>",
+          "filter_by_d": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">기본정렬</a>",
+          "price_range": "<a class=\"btn btn-primary filterPriceRange\">Filter</a>",
+          "price_range_reset": "<a class=\"btn btn-secondary showAll\">Show all</a>",
+          "closeModal": "<a class=\"btn btn-primary modalButton\" mbr-on-click=\"_onCloseModalClick\">Close</a>",
+          "allItem": "All",
+          "sidebar1": "[ Best &nbsp;술집 ]",
+          "sidebar2": "Filter by price",
+          "sidebar3": "Categories",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "shop1",
+          "_anchor": "shop1-o"
+        },
+        {
+          "_styles": {
+            "P": {
+              "color": "#dddddd"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "right"
+            }
+          },
+          "_params": {
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#f7f7f7",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/111-113x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "scribd",
+              "family": "FontAwesome",
+              "link": "",
+              "size": 0,
+              "newWindow": false,
+              "active": true
+            }
+          },
+          "title1": "product",
+          "text11": "Popular",
+          "text12": "Trending",
+          "text13": "Catalog",
+          "text14": "Awesome",
+          "text15": "Best",
+          "title2": "company",
+          "text21": "Press",
+          "text22": "Features",
+          "text23": "Mission",
+          "text24": "Strategy",
+          "text25": "Works",
+          "title3": "Learn more",
+          "text31": "Support",
+          "text32": "Developers",
+          "text33": "Service",
+          "text34": "Starter pack",
+          "text35": "FAQ",
+          "titled1": "<p><span style=\"font-style: normal;\"><b>회원가입&nbsp; &nbsp;</b></span></p>",
+          "titled2": "<span style=\"font-style: normal;\"><b>자유게시판</b></span>",
+          "titled3": "<span style=\"font-style: normal;\"><b>술집찾기</b></span>",
+          "followtext": "follow us",
+          "text": "Copyright (c) 2017 oneshot.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer7",
+          "_anchor": "footer7-s"
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "info",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "30px",
+              "font-family": "'Arvo', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i",
+              "font-family": "'Arvo', serif"
+            },
+            ".link": {
+              "font-size": "1.1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.191rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#000000"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#000000!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#2c3e50",
+            "fontSize": "1.1",
+            "fontName": {
+              "url": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i",
+              "name": "Arvo",
+              "css": "'Arvo', serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">회원가입</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">자유게시판</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">술집찾기</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/111-113x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ONE SHOT</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-8"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "46px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "columns": 2,
+            "showArrow": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2980b9",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#f39c12",
+            "overlayOpacity": "0.7"
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "title": "FOX 사장님<br> 예약 가능할까요?",
+          "text": "Develop fully responsive, mobile-ready websites",
+          "subtitle1": "연락처",
+          "subtitle2": "최대예약석",
+          "subtitle3": "BEAUTIFUL MOBILE WEBSITES",
+          "caption1": "033) 425-5352<br>010) 3234-5653<br>영업시간 : 18:00 ~ 04:00",
+          "caption2": "최대 20석 까지 예약이 가능합니다.",
+          "caption3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita itaque, dicta delectus accusantium nihil eligendi?",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-extProgressBar4",
+              "linkInNewWindow": false,
+              "name": "touch",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": 60,
+              "color": "#fff",
+              "newWindow": false
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-extProgressBar4",
+              "linkInNewWindow": false,
+              "name": "dollar-2",
+              "family": "icon54",
+              "active": true,
+              "link": "",
+              "size": 60,
+              "color": "#fff",
+              "newWindow": false
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extProgressBar4",
+              "name": "desktop",
+              "link": "https://mobirise.com",
+              "size": 60,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning-outline btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
+          "form": {
+            "action": "wonhojoung@naver.com",
+            "alerts": {
+              "success": "전송되었습니다."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "이름"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "이메일"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "핸드폰"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "문의내용"
+              }
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "intro3",
+          "_anchor": "intro3-g"
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": 0,
+            "paddingTop": "1",
+            "paddingBottom": 4,
+            "filterBgColor": false,
+            "bgColor": "#fff",
+            "showText": true,
+            "filter": true,
+            "images": [
+              {
+                "tags": "치킨",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "image": "@PROJECT_PATH@/assets/images/w1-1920x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/w1-1920x1080-800x450.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "caption": "치킨과 맥주",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "tags": "안주",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/w2-1920x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/w2-1920x1080-800x450.jpg",
+                "caption": "치킨과 팥빙수",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "tags": "치킨",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/w3-1920x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/w3-1920x1080-800x450.jpg",
+                "caption": "순살닭볶음탕",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "tags": "전경",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/w4-1920x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/w4-1920x1080-800x450.jpg",
+                "caption": "전경",
+                "active": true,
+                "alt": ""
+              },
+              {
+                "tags": "전경",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/w5-1920x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/w5-1920x1080-800x450.jpg",
+                "caption": "전경",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "tags": "전경",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/w6-1920x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/w6-1920x1080-800x450.jpg",
+                "caption": "전경",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "tags": "전경",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/w7-1920x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/w7-1920x1080-800x450.jpg",
+                "caption": "전경",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "tags": "전경",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/w8-1920x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/w8-1920x1080-800x450.jpg",
+                "caption": "전경",
+                "active": false,
+                "alt": ""
+              }
+            ]
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "articleLayout": false,
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">",
+          "allItem": "<b>ALL</b>",
+          "_name": "gallery3",
+          "_anchor": "gallery3-d",
+          "_styles": {
+            ".mbr-gallery-title": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_styles": {
+            "th": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-title": {
+              "font-size": "72px"
+            },
+            "TABLE": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSearch": false,
+            "rowСount": "7",
+            "colCount": "2",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/flight-mountains-sky-flying.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#dddddd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.4
+          },
+          "title": "fox 메뉴",
+          "search": "Search:",
+          "info1": "위 정보와 가격이 상이 할 수 있습니다.",
+          "info2": "",
+          "info3": "",
+          "info4": "",
+          "table": "<thead><tr><th>메뉴</th><th>가격</th></tr></thead><tbody><tr><td>혼짱뽕탕</td><td>7,500원</td></tr><tr><td>하얀짬뽕</td><td>8,500원</td></tr><tr><td>스지어묵탕</td><td>5,500원</td></tr><tr><td>순살닭볶음탕</td><td>17,500원</td></tr><tr><td>부대찌개</td><td>20,000원</td></tr><tr><td>돼지김치찌개</td><td>20,000원</td></tr><tr><td>후라이드 치킨</td><td>15,000원</td></tr></tbody>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "table1",
+          "_anchor": "table1-e"
+        },
+        {
+          "_styles": {
+            ".card-block p": {
+              "font-size": "15px"
+            },
+            ".card-footer > small": {
+              "text-align": "right",
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "showTitle": false,
+            "showSubtitle": false,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "autoplay": true,
+            "timeout": 5,
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "showBullets": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/flight-mountains-sky-flying.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5,
+            "visibleSlides": "3",
+            "slides": [
+              {
+                "active": false,
+                "text": "<p>“서비스를 많이 주셔서 좋았습니다. 분위기 좋고 다음에 또 방문하겠습니다.”</p>",
+                "authorName": "이나영",
+                "authorBio": "17.7.3 방문",
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/11-160x160.jpg",
+                    "class": "img-circle",
+                    "link": "",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              },
+              {
+                "active": false,
+                "text": "<p>“A major tturning point in the history of early philosophical science was the controversial ”</p>",
+                "authorName": "Abanoub S.",
+                "authorBio": "USER",
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/22-160x160.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              },
+              {
+                "active": true,
+                "text": "<p>“먹을만했습니다. 지갑 두고갔는데 보관해주셔서 감사합니다.”</p>",
+                "authorName": "손나래",
+                "authorBio": "17.7.1 방문",
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/33-160x160.jpg",
+                    "class": "img-circle",
+                    "link": "",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              }
+            ],
+            "controlBgLeft": "@PROJECT_PATH@/assets/images/left.png",
+            "controlBgRight": "@PROJECT_PATH@/assets/images/right.png"
+          },
+          "title": "What our fantastic users say",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials2",
+          "_anchor": "testimonials2-b"
+        },
+        {
+          "_styles": {},
+          "_params": {
+            "showCat1": true,
+            "showCat2": true,
+            "showCat3": true,
+            "showText": true,
+            "showButtons": true,
+            "googleMap": {
+              "address": "Gangwon-do, Chuncheon, Hyoja 2(i)-dong, 32-15",
+              "placeId": "ChIJmdBDnc7lYjURuZ7SofCGRfo",
+              "state": "ok",
+              "stateDetails": ""
+            },
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/03.jpg",
+              "class": ""
+            }
+          },
+          "title1": "강원도 춘천시 효자동 183-78번지&nbsp;",
+          "title2": "010) 3234-5653",
+          "title3": "wonhojoung@naver.com",
+          "cat1": "address",
+          "cat2": "phone",
+          "cat3": "email",
+          "text": "상단에 정보를 확인하고 연락부탁드립니다.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-twitter\"></span></a><a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-skype\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-c"
+        },
+        {
+          "_styles": {
+            "P": {
+              "color": "#dddddd"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "right"
+            }
+          },
+          "_params": {
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#f7f7f7",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/111-113x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "scribd",
+              "family": "FontAwesome",
+              "link": "",
+              "size": 0,
+              "newWindow": false,
+              "active": true
+            }
+          },
+          "title1": "product",
+          "text11": "Popular",
+          "text12": "Trending",
+          "text13": "Catalog",
+          "text14": "Awesome",
+          "text15": "Best",
+          "title2": "company",
+          "text21": "Press",
+          "text22": "Features",
+          "text23": "Mission",
+          "text24": "Strategy",
+          "text25": "Works",
+          "title3": "Learn more",
+          "text31": "Support",
+          "text32": "Developers",
+          "text33": "Service",
+          "text34": "Starter pack",
+          "text35": "FAQ",
+          "titled1": "<p><span style=\"font-style: normal;\"><b>회원가입&nbsp; &nbsp;</b></span></p>",
+          "titled2": "<span style=\"font-style: normal;\"><b>자유게시판</b></span>",
+          "titled3": "<span style=\"font-style: normal;\"><b>술집찾기</b></span>",
+          "followtext": "follow us",
+          "text": "Copyright (c) 2017 oneshot.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer7",
+          "_anchor": "footer7-s"
+        }
+      ]
+    }
+  }
+}
